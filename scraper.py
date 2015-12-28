@@ -16,8 +16,9 @@ tabletv = souptv.table
 rows = tablediv.find_all("tr")
 
 #define arrays
-data = [[],[],[],[],[]]
-record = []
+data = []
+record = ["title","netflix","presto","stan","type"]
+data.append(record)
 
 #loop through the table rows and get all of the column data and append it to the data array
 for row in rows[1:]:
